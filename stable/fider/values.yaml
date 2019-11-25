@@ -37,9 +37,9 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-envFrom:
-  configMapRef:
-    - fider-config
+#envFrom:
+#  configMapRef:
+#    - fider-config
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
